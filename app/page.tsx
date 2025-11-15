@@ -1,24 +1,6 @@
 import EventCard from "@/components/EventCard";
 import ExploreBtn from "@/components/ExploreBtn";
-
-const events = [
-  {
-    title: "Event 1",
-    image: "/images/event1.png",
-    slug: "event-1",
-    location: "New York",
-    date: "2024-09-15",
-    time: "10:00 AM",
-  },
-  {
-    title: "Event 2",
-    image: "/images/event2.png",
-    slug: "event-2",
-    location: "California",
-    date: "2024-09-15",
-    time: "10:00 AM",
-  },
-];
+import { events } from "@/lib/constants";
 
 const Home = () => {
   return (
